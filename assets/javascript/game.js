@@ -40,7 +40,7 @@ var lossCount       = 0;
 
 // Helper Function for getting random numbers
 var getRandom = function(min, max) {
-    return Math.floor(Math.random() * (min - max + 1)) +min;
+    return Math.floor(Math.random() * (min + max + 1)) +min;
 }
 
 // Starts the Game (and restarts the game)
